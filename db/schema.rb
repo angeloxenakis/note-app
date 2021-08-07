@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 2021_07_29_215501) do
   create_table "notes", force: :cascade do |t|
     t.string "title"
     t.string "content"
-    t.integer "user_id"
     t.integer "folder_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
